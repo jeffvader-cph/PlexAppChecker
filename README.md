@@ -9,7 +9,7 @@ This script was created due to an issue where the PMS app was consistantly crash
 1. Open Terminal
 2. sudo crontab -e
 3. add the following to the file:
-* * * * * /Users/userName/Path/to/script
+*/ */ */ */ */ /Users/userName/Path/to/script
 4. save and quit out of crontab, you're done!!!
 
 #I have mine run every minute to decrease downtime in the case of the app crashing.  Adjust the time peramaters per your needs.
